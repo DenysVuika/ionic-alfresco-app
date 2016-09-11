@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Files</ion-title>
+    <ion-buttons end>
+      <button>
+        <ion-icon name="cog"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <alf-folder-view
+    [folderId]="folderId"
+    (nodeTapped)="nodeTapped($event)"
+    (error)="onError($event)">
+  </alf-folder-view>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons end>
+      <button royal (click)="openCreateContentMenu()">
+        Create
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

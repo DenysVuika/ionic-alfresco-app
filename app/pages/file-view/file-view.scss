@@ -1,0 +1,16 @@
+.video-player {
+  width: 100%;
+  height: auto;
+}
+
+/* portrait */
+@media screen and (orientation:portrait) {
+	/* portrait-specific styles */
+}
+/* landscape */
+@media screen and (orientation:landscape) {
+	/* landscape-specific styles */
+  .video-player {
+    height: 100%;
+  }
+}
