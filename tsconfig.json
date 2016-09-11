@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution":"node",
+    "sourceMap": true,
+    "declaration": true
+  },
+  "filesGlob": [
+    "**/*.ts",
+    "!node_modules/**/*",
+    "node_modules/alfresco-js-api/dist/alfresco-js-api.d.ts",
+    "node_modules/ionic-alfresco/build/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "platforms",
+    "plugins",
+    "typings/global",
+    "typings/global.d.ts",
+    "www"
+  ],
+  "compileOnSave": false,
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
