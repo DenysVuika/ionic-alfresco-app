@@ -25,7 +25,7 @@
 
     "intl": "^1.2.4",
     "alfresco-js-api": "^0.3.1",
-    "ionic-alfresco": "^0.1.1",
+    "ionic-alfresco": "^0.1.2",
     "systemjs": "^0.19.38"
   },
   "devDependencies": {
