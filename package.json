@@ -1,6 +1,6 @@
 {
   "name": "ionic-alfresco-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/DenisVuyka/ionic-alfresco-app.git"
@@ -22,7 +22,6 @@
     "reflect-metadata": "0.1.8",
     "rxjs": "5.0.0-beta.6",
     "zone.js": "0.6.12",
-
     "intl": "^1.2.4",
     "alfresco-js-api": "^0.3.1",
     "ionic-alfresco": "^0.1.2",
@@ -40,7 +39,6 @@
     "ionic-gulp-tslint": "^1.0.0",
     "tslint-ionic-rules": "0.0.4",
     "run-sequence": "1.1.5",
-
     "@denysvuika/ionic-gulp-build-typescript": "^0.1.0",
     "@denysvuika/ionic-gulp-html-copy": "^0.1.0",
     "@denysvuika/ionic-gulp-images-copy": "^0.1.0"
