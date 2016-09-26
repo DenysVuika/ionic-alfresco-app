@@ -6,6 +6,7 @@ import { ALFRESCO_IONIC_PROVIDERS, AuthService, SettingsService } from 'ionic-al
 
 import { FolderViewPage } from './pages/folder-view/folder-view';
 import { LoginPage } from './pages/login/login';
+import { TrashcanViewPage } from './pages/trashcan-view/trashcan-view';
 
 declare let __moduleName: string;
 
@@ -34,7 +35,8 @@ class MyApp implements OnInit {
 
     // set our app's pages
     this.pages = [
-      { title: 'Files', component: FolderViewPage }
+      { title: 'Files', component: FolderViewPage },
+      { title: 'Trashcan', component: TrashcanViewPage }
     ];
   }
 
